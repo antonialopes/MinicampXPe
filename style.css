@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #5c09aa;
+  background-image: linear-gradient(
+    90deg,
+    #2f0258 0%,
+    #5c09aa 0%,
+    #7b1e7c 100%
+  );
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-weight: 100;
+  cursor: pointer;
+  color: #fff;
+  background-color: #5e08af;
+  background-image: linear-gradient(90deg, #2f0258 0%, #7b1e7c 100%);
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #fff;
+}
+
+#paragraph-result {
+  margin-top: 50px;
+}
+
+input {
+  margin-top: 5px;
+  width: 200px;
+  border-radius: 5px;
+}
+#button-calculate-imc {
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 40px;
+}
